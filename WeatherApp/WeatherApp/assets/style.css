@@ -1,0 +1,120 @@
+.container-fluid {
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(to right, coral, rgb(255, 193, 170));
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    font-style: bold;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: coral;
+}
+
+.list-group-item {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#today {
+    border: solid 1px black;
+    padding-left: 10px;
+}
+
+#forecastH2 {
+    padding-top: 10px;
+}
+
+.col-sm-2 {
+    width: 50%;
+    display: inline-block;
+    margin: 0 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 250px;
+    background-color: lightcoral;
+    width: 200px;
+}
+
+.form-inline {
+    display: inline;
+}
+
+.input-group-append {
+    display: inline;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+
+
+.weather-header {
+    margin-bottom: 40px;
+}
+
+#form-heading {
+    margin-top: 40px;
+}
+
+.form-input {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#today {
+    background-color: rgb(247, 177, 107);
+}
+
+
+.search-history {
+    margin-top: 40px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
