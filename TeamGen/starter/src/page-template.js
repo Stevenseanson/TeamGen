@@ -13,7 +13,7 @@ const generateTeam = team => {
             <ul class="list-group">
                 <li class="list-group-item">ID: ${manager.getId()}</li>
                 <li class="list-group-item">Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
-                <li class="list-group-item">Office number: ${manager.getOfficeNumber()}</li>
+                <li class="list-group-item">Office number: ${manager.getOffice()}</li>
             </ul>
         </div>
     </div>
@@ -58,6 +58,7 @@ const generateTeam = team => {
         `;
     };
 
+    function render(team)
     const html = [];
 
     html.push(team
