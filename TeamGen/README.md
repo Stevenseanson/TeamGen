@@ -9,4 +9,4 @@ This is to demonstrate working knowledge of javascript tests and modules.
 Upon running the "node index.js" command in the starter folder the user will be prompted to fill in info which is then displayed on a generated HTML. I have provided a sample HTML for reference.
 
 
-![](2023-03-07-19-02-28.png)
+![alt text](/screenshot.png)
