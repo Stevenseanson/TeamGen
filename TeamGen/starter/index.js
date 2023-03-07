@@ -1,3 +1,4 @@
+const Employee = require("./lib/Employee");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -76,7 +77,7 @@ function promptTeamMembers() {
                 case "Finish building my team":
                     const html = render(team);
                     fs.writeFileSync(outputPath, html);
-                    open(outputPath);
+                    console.log("Team created successfully!");
                     break;
             }
         });
@@ -144,4 +145,3 @@ function promptIntern() {
         })
 };
 
-fs.writeFileSync(outputPath, render(team));

@@ -1,3 +1,5 @@
+const Employee = require("../lib/Employee");
+
 // creates the team
 const generateTeam = team => {
 
@@ -58,20 +60,20 @@ const generateTeam = team => {
         `;
     };
 
-    function render(team)
+
     const html = [];
 
     html.push(team
-        .filter(employee => employee.getRole() === "Manager")
+        .filter(Employee => Employee.getRole() === "Manager")
         .map(manager => generateManager(manager))
     );
     html.push(team
-        .filter(employee => employee.getRole() === "Engineer")
+        .filter(Employee => Employee.getRole() === "Engineer")
         .map(engineer => generateEngineer(engineer))
         .join("")
     );
     html.push(team
-        .filter(employee => employee.getRole() === "Intern")
+        .filter(Employee => Employee.getRole() === "Intern")
         .map(intern => generateIntern(intern))
         .join("")
     );
